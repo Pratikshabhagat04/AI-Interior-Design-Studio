@@ -8,7 +8,7 @@ import os
 # ----------------------------
 # CONFIGURE GEMINI
 # ----------------------------
-genai.configure(api_key="AIzaSyApKxQvUpkhlB1C1JdtCnzU3dzSmG1T47s")
+genai.configure(api_key="api")
 
 text_model = genai.GenerativeModel("gemini-2.5-flash")
 image_model = genai.GenerativeModel("gemini-2.5-flash-image")
@@ -181,3 +181,4 @@ Make it ultra-realistic, interior photography, natural lighting.
                     file_name="ai_interior_design.png",
                     mime="image/png"
                 )
+
